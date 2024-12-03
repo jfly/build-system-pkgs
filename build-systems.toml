@@ -26,6 +26,9 @@ poetry-core = []
 flit-core = []
 flit-scm = []
 
+[expandvars]
+hatchling = []
+
 [hatch-fancy-pypi-readme]
 hatchling = []
 
@@ -105,6 +108,10 @@ setuptools = []
 [pkgconfig]
 poetry-core = []
 
+[platformdirs]
+hatch-vcs = []
+hatchling = []
+
 [pluggy]
 setuptools = []
 setuptools-scm = []
@@ -114,6 +121,9 @@ setuptools = []
 
 [poetry-dynamic-versioning]
 poetry-core = []
+
+[py-generator-build-backend]
+hatchling = []
 
 [pybind11]
 setuptools = []
